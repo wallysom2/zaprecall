@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;700&family=Righteous&display=swap');
+
+body {
+    background-color: #FB6B6B;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+
+}
+.home img {
+    width: 140px;
+    height: 160px;
+    margin-top: 150px;
+}
+.home h1 {
+    font-family: Righteous;
+    font-size: 36px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+.home button {
+    width: 246px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-top: 30px;
+    font-family: 'Recursive';
+    font-weight: 400;
+    font-size: 18px;
+    color: #D70900;
+    cursor: pointer;
+}
+ header {
+    display: flex;
+    margin-top: 42px;
+    justify-content: center;
+    
+}
+header img {
+    width: 52px;
+    height: 60px;
+    padding-right: 7px;
+    margin-top: 25px;
+}
+header h2 {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    transform: rotate(0.58deg);
+    margin-top: 25px;
+}
+.lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+
+}
+.opcoes {
+    width: 300px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-top: 25px;
+    font-family: 'Recursive';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.opcoes ion-icon{
+    width: 30px;
+    height: 30px;
+    color: #333333;
+}
