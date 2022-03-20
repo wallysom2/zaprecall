@@ -1,13 +1,12 @@
 import Home from "./Home"
-import Header from "./Header"
-import Lista from "./Lista"
+import Firstpage from "./Firstpage"
+
 
 export default function App (){
+
     return (
-        <>
-      
-        <Header />
-        <Lista />
+        <> 
+            <Home />
         </>
     )
 }

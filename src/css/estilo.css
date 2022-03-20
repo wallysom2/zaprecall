@@ -4,10 +4,14 @@ body {
     background-color: #FB6B6B;
 }
 .home {
+    background-color: #FB6B6B;
     display: flex;
     justify-content: center;
     align-items:  center;
     flex-direction: column;
+    z-index: 2;
+    position: absolute;
+    width: 100%;
 
 }
 .home img {
@@ -66,7 +70,6 @@ header h2 {
     align-items: center;
     margin: 20px;
 
-
 }
 .opcoes {
     width: 300px;
@@ -83,9 +86,12 @@ header h2 {
     display: flex;
     justify-content:space-around;
     align-items: center;
+    
 }
 .opcoes ion-icon{
     width: 30px;
     height: 30px;
     color: #333333;
+    cursor: pointer;
+
 }
