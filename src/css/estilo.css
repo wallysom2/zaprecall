@@ -7,22 +7,25 @@
 body {
     background-color: #FB6B6B;
 }
+
 .home {
     background-color: #FB6B6B;
     display: flex;
     justify-content: center;
-    align-items:  center;
+    align-items: center;
     flex-direction: column;
     z-index: 2;
     position: absolute;
     width: 100%;
 
 }
+
 .home img {
     width: 140px;
     height: 160px;
     margin-top: 150px;
 }
+
 .home h1 {
     font-family: Righteous;
     font-size: 36px;
@@ -30,6 +33,7 @@ body {
     color: #FFFFFF;
     margin-top: 20px;
 }
+
 .home button {
     width: 246px;
     height: 54px;
@@ -44,18 +48,21 @@ body {
     color: #D70900;
     cursor: pointer;
 }
- header {
+
+header {
     display: flex;
     margin-top: 42px;
     justify-content: center;
-    
+
 }
+
 header img {
     width: 52px;
     height: 60px;
     padding-right: 7px;
     margin-top: 25px;
 }
+
 header h2 {
     font-family: 'Righteous';
     font-style: normal;
@@ -67,6 +74,7 @@ header h2 {
     transform: rotate(0.58deg);
     margin-top: 25px;
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -76,8 +84,8 @@ main {
     margin-bottom: 100px;
 }
 
-.carta-virada{
-    display:flex;
+.carta-virada {
+    display: flex;
     width: 300px;
     height: 65px;
     background-color: #FFFFFF;
@@ -90,7 +98,7 @@ main {
     cursor: pointer;
 }
 
-.carta-virada p{
+.carta-virada p {
     font-family: 'Recursive', sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -98,12 +106,12 @@ main {
     color: #333333;
 }
 
-.carta-virada ion-icon{
+.carta-virada ion-icon {
     font-size: 25px;
     color: #333333;
 }
 
-.pergunta{
+.pergunta {
     position: relative;
     width: 300px;
     height: 132px;
@@ -115,7 +123,7 @@ main {
     padding: 10px;
 }
 
-.pergunta h1{
+.pergunta h1 {
     font-family: 'Recursive', sans-serif;
     color: #333333;
     font-weight: 400;
@@ -124,7 +132,7 @@ main {
     padding: 10px;
 }
 
-.pergunta img{
+.pergunta img {
     position: absolute;
     bottom: 10px;
     right: 20px;
@@ -133,7 +141,7 @@ main {
     height: 20px;
 }
 
-.resposta{
+.resposta {
     box-sizing: content-box;
     position: relative;
     width: 280px;
@@ -145,25 +153,27 @@ main {
     border-radius: 5px;
     padding: 10px;
 }
-.resposta h2{
+
+.resposta h2 {
     font-family: 'Recursive', sans-serif;
     color: #333333;
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
-    
-}
-    
 
-.memoria{
+}
+
+
+.memoria {
     position: absolute;
     bottom: 0;
     left: 10px;
     display: flex;
     padding-bottom: 6px;
+    margin-bottom: 10px;
 }
 
-.nao-lembro{
+.nao-lembro {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -174,7 +184,7 @@ main {
     border-radius: 5px;
 }
 
-.nao-lembro p{
+.nao-lembro p {
     font-family: 'Recursive', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -182,7 +192,7 @@ main {
 }
 
 
-.quase-n-lembro{
+.quase-n-lembro {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,7 +203,7 @@ main {
     border-radius: 5px;
 }
 
-.quase-n-lembro p{
+.quase-n-lembro p {
     font-family: 'Recursive', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -201,7 +211,7 @@ main {
     text-align: center;
 }
 
-.zap{
+.zap {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,7 +222,7 @@ main {
     border-radius: 5px;
 }
 
-.zap p{
+.zap p {
     font-family: 'Recursive', sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -220,8 +230,8 @@ main {
 }
 
 
-.carta-virada-errado{
-    display:flex;
+.carta-virada-errado {
+    display: flex;
     width: 300px;
     height: 65px;
     background-color: #FFFFFF;
@@ -233,7 +243,7 @@ main {
     align-items: center;
 }
 
-.carta-virada-errado p{
+.carta-virada-errado p {
     font-family: 'Recursive', sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -242,13 +252,13 @@ main {
     text-decoration: line-through;
 }
 
-.carta-virada-errado ion-icon{
+.carta-virada-errado ion-icon {
     font-size: 30px;
     color: #FF3030;
 }
 
-.carta-virada-meio{
-    display:flex;
+.carta-virada-meio {
+    display: flex;
     width: 300px;
     height: 65px;
     background-color: #FFFFFF;
@@ -261,22 +271,22 @@ main {
     align-items: center;
 }
 
-.carta-virada-meio p{
+.carta-virada-meio p {
     font-family: 'Recursive', sans-serif;
     font-weight: 700;
-     font-size: 16px;
-     line-height: 20px;
+    font-size: 16px;
+    line-height: 20px;
     color: #FF922E;
     text-decoration: line-through;
 }
 
-.carta-virada-meio ion-icon{
+.carta-virada-meio ion-icon {
     font-size: 30px;
     color: #FF922E;
 }
 
-.carta-virada-zap{
-    display:flex;
+.carta-virada-zap {
+    display: flex;
     width: 300px;
     height: 65px;
     background-color: #FFFFFF;
@@ -289,7 +299,7 @@ main {
     align-items: center;
 }
 
-.carta-virada-zap p{
+.carta-virada-zap p {
     font-family: 'Recursive', sans-serif;
     font-weight: 700;
     font-size: 16px;
@@ -298,12 +308,12 @@ main {
     text-decoration: line-through;
 }
 
-.carta-virada-zap ion-icon{
+.carta-virada-zap ion-icon {
     font-size: 30px;
     color: #2FBE34;
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -315,7 +325,7 @@ footer{
     background-color: #FFFFFF;
 }
 
-footer h1{
+footer h1 {
     font-family: 'Recursive', sans-serif;
     font-size: 18px;
     color: #333333;
@@ -323,29 +333,29 @@ footer h1{
     text-align: center;
 }
 
-.icones{
+.icones {
     display: flex;
     font-size: 30px;
 }
 
-.close-circle-sharp{
+.close-circle-sharp {
     color: #FF3030;
     font-size: 20px;
 }
 
-.fim{
+.fim {
     display: flex;
     margin-bottom: 14px;
 }
 
-.fim img{
+.fim img {
     width: 23px;
     height: 23px;
     margin-right: 10px;
 
 }
 
-.fim h1{
+.fim h1 {
     font-family: 'Recursive', sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -353,7 +363,7 @@ footer h1{
     color: #333333;
 }
 
-.final p{
+.final p {
     font-family: 'Recursive', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -362,7 +372,7 @@ footer h1{
     margin-bottom: 12px;
 }
 
-.final{
+.final {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -372,4 +382,123 @@ footer h1{
     align-items: center;
     height: 152px;
     background-color: #FFFFFF;
+}
+
+@media (min-width: 600px) {
+
+
+    header img {
+        width: 86.96px;
+        height: 100px;
+
+    }
+
+    header h2 {
+        margin-top: 30px;
+        font-size: 64px;
+        margin-bottom: 100px;
+    }
+
+    .carta-virada {
+        width: 567.12px;
+        height: 91.74px;
+    }
+
+    .carta-virada p {
+        font-size: 24px;
+    }
+
+    .carta-virada ion-icon {
+        font-size: 30px;
+        color: #333333;
+    }
+
+    .pergunta {
+        width: 567.12px;
+        height: 200.74px;
+    }
+
+    .pergunta h1 {
+        font-size: 24px;
+    }
+
+    .resposta {
+        width: 547.12px;
+        height: 180.74px;
+        font-size: 24px;
+    }
+
+    .resposta h2 {
+        font-size: 24px;
+        padding: 18px;
+    }
+
+    .nao-lembro {
+        width: 140px;
+        height: 40px;
+        margin-left: 14px;
+        cursor: pointer;
+    }
+
+    .nao-lembro p {
+        font-size: 17px;
+
+    }
+
+    .quase-n-lembro {
+        width: 140px;
+        height: 40px;
+        margin-left: 14px;
+        cursor: pointer;
+    }
+
+    .quase-n-lembro p {
+        font-size: 17px;
+    }
+
+    .zap {
+        width: 140px;
+        height: 40px;
+        margin-left: 14px;
+        cursor: pointer;
+    }
+
+    .zap p {
+        font-size: 17px;
+    }
+
+    .memoria {
+        margin-left: 20px;
+        margin-bottom: 12px;
+
+    }
+
+    .carta-virada-errado {
+        width: 567.12px;
+        height: 91.74px;
+        
+    }
+
+    .carta-virada-errado p {
+        font-size: 24px;
+    }
+
+    .carta-virada-meio {
+        width: 567.12px;
+        height: 91.74px;
+    }
+
+    .carta-virada-meio p {
+        font-size: 24px;
+    }
+
+    .carta-virada-zap {
+        width: 567.12px;
+        height: 91.74px;
+    }
+
+    .carta-virada-zap p {
+        font-size: 24px;
+    }
+
 }

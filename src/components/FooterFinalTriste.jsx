@@ -1,6 +1,6 @@
 import sad from "../assets/sad.png"
 
-export default function FooterFinalTriste(props){
+export default function FooterFinalTriste(props) {
     const { icone } = props;
     return (
         <footer className="final">

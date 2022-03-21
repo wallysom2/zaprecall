@@ -1,6 +1,6 @@
 import party from "../assets/party.png"
 
-export default function FooterFinalFeliz(props){
+export default function FooterFinalFeliz(props) {
     const { icone } = props;
     return (
         <footer className="final">

@@ -1,5 +1,5 @@
-export default function PerguntaTaxada(props){
-    const {estado,icons,id} = props;
+export default function PerguntaTaxada(props) {
+    const { estado, icons, id } = props;
     const css = `carta-virada-${estado}`
     return (
         <div className={css}>

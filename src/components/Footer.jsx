@@ -1,9 +1,9 @@
 import FooterFinalFeliz from "./FooterFinalFeliz";
 import FooterFinalTriste from "./FooterFinalTriste";
 
-export default function Footer(props){
-    const {qtd,icone,callback} = props;
-    if(qtd < 8){
+export default function Footer(props) {
+    const { qtd, icone, callback } = props;
+    if (qtd < 8) {
         return (
             <footer>
                 <h1>{qtd}/8 CONCLUÍDOS</h1>
@@ -14,14 +14,14 @@ export default function Footer(props){
                 </div>
             </footer>
         )
-    }else{
-        if(icone.find(callback) !== undefined){
-            return(
-                <FooterFinalTriste icone={icone}/>
+    } else {
+        if (icone.find(callback) !== undefined) {
+            return (
+                <FooterFinalTriste icone={icone} />
             )
-        }else{
-            return(
-                <FooterFinalFeliz icone={icone}/>
+        } else {
+            return (
+                <FooterFinalFeliz icone={icone} />
             )
         }
     }

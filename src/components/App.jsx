@@ -3,7 +3,7 @@ import { useState } from "react";
 import TelaDeck from "./TelaDeck"
 
 
-export default function App (){
+export default function App() {
     const [escondido, setEscondido] = useState(false);
     if (escondido === false) {
         return (
@@ -16,7 +16,7 @@ export default function App (){
     }
     else {
         return (
-            <TelaDeck /> 
+            <TelaDeck />
         )
     }
 }
