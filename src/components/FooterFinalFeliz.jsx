@@ -1,9 +1,11 @@
+import party from "../assets/party.png"
+
 export default function FooterFinalFeliz(props){
     const { icone } = props;
     return (
         <footer className="final">
             <div className="fim">
-                <img src="party.png" alt="" />
+                <img src={party} alt="" />
                 <h1>Parabéns</h1>
             </div>
             <p>Você não esqueceu de nenhum flashcard!</p>

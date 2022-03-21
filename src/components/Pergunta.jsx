@@ -1,13 +1,14 @@
 import { useState } from "react"
 import PerguntaTaxada from "./PerguntaTaxada";
 import Resposta from "./Resposta";
+import setinha from "../assets/setinha.png"
 const icons = ["close-circle-sharp","help-circle-sharp","checkmark-circle-sharp"];
+
 
 
 export default function Pergunta(props) {
     const {id, pergunta, resposta, callback, adicionaIcones} = props;
     const [ virada, setVirada ] = useState("virada");
-    // const [memoria, setMemoria] = useState("");
 
     function selecionaMemoria(str){
         console.log(str);
@@ -34,7 +35,7 @@ export default function Pergunta(props) {
         return (
             <div className="pergunta">
                 <h1>{pergunta}</h1>
-                <img onClick={() => setVirada("resposta")} src="setinha.png" alt="" />
+                <img onClick={() => setVirada("resposta")} src={setinha} alt="" />
             </div>
         )
     } else if(virada === "resposta")  {

@@ -1,9 +1,11 @@
+import sad from "../assets/sad.png"
+
 export default function FooterFinalTriste(props){
     const { icone } = props;
     return (
         <footer className="final">
             <div className="fim">
-                <img src="sad.png" alt="" />
+                <img src={sad} alt="" />
                 <h1>PUTZ!</h1>
             </div>
             <p>Ainda faltaram alguns...

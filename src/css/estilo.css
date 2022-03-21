@@ -311,7 +311,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 170px;
+    height: 70px;
     background-color: #FFFFFF;
 }
 
@@ -339,8 +339,10 @@ footer h1{
 }
 
 .fim img{
-    margin-right: 7px;
-    
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+
 }
 
 .fim h1{
@@ -368,6 +370,6 @@ footer h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 112px;
+    height: 152px;
     background-color: #FFFFFF;
 }
